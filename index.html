@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+    </header>
+
+    <main>
+        <p>Ini adalah contoh website sederhana dengan navbar dan footer.</p>
+        <button onclick="tampilkanAlert()">Klik Saya</button>
+        <h2>Hubungi Kami</h2>
+        <form id="=contactForm">
+          <input type="text" id="nama" placeholder="Nama Anda" required>
+          <textarea id="pesan" placeholder="Tulis pesan..." required></textarea>
+          <button type="submit">Kirim</button> 
+        </form>
+        <p id="responseMessage"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Website Saya | Dibuat dengan ❤️</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
