@@ -3,37 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Sederhana</title>
+    <title>Camik Asik</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Selamat Datang di Website Saya</h1>
+    <header id="hero">
+      <div class="overlay"></div>
+      <h1>Welcome to Camik Asik</h1>
+      <p>Deliver foods with love</p>
     </header>
+  
 
-    <main>
-        <p>Ini adalah contoh website sederhana dengan navbar dan footer.</p>
-        <button onclick="tampilkanAlert()">Klik Saya</button>
-        <h2>Hubungi Kami</h2>
-        <form id="=contactForm">
-          <input type="text" id="nama" placeholder="Nama Anda" required>
-          <textarea id="pesan" placeholder="Tulis pesan..." required></textarea>
-          <button type="submit">Kirim</button> 
-        </form>
-        <p id="responseMessage"></p>
-    </main>
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami menyediakan informasi dan layanan terbaik untuk Anda.</p>
+    </section>
+
+    <section id="services">
+    <h2>Our Products</h2>
+    <div class="service-container">
+        <div class="service">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Tekwan</h3>
+            <p>Kami membuat website modern dan responsif.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Gyoza</h3>
+            <p>Solusi aplikasi mobile untuk kebutuhan bisnis Anda.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-search"></i>
+            <h3>Pangsit Rebus</h3>
+            <p>Optimasi website agar mudah ditemukan di Google.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Testimoni Klien</h2>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <div class="testimonial-card">
+                <p>"Layanan mereka sangat luar biasa! Website saya jadi lebih cepat dan menarik."</p>
+                <h4>- Andi, CEO Startup</h4>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-card">
+                <p>"Desain yang elegan dan profesional. Sangat direkomendasikan!"</p>
+                <h4>- Rina, Pengusaha</h4>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-card">
+                <p>"Sangat puas dengan hasil kerja tim mereka. Fast response & profesional!"</p>
+                <h4>- Budi, Freelancer</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
     <footer>
-        <p>&copy; 2025 Website Saya | Dibuat dengan ❤️</p>
+        <p>&copy; 2025 Website Saya | Dibuat dengan ChatGPT</p>
         <div class="social-icons">
           <a href="#"><i class="fab fa-facebook"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
@@ -41,6 +84,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
